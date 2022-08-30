@@ -12,6 +12,9 @@
     width: 100%;
     background-color: #fff;
     font-size: 18px;
+    position: fixed;
+    top: 0px;
+    z-index:1000;
     box-shadow: black 0px 0px 15px;
 }
 
@@ -46,22 +49,21 @@
 
 }
 
-.home .nav ul button {
+.home .nav ul #li button {
     width: 130px;
     height: 50px;
     border-radius: 30px;
     font-weight: bold;
     font-size: 17px;
     border: none;
-    color: white;
     background-color: blue;
-    transition: all 3s;
+    color: white;
+    transition: all 1s;
+}
+.home .nav ul #li button:hover{
+    background-color: darkblue;
 }
 
-.home .nav ul li button :hover {
-    background-color: rgb(0, 51, 255);
-
-}
 
 .home .nav ul li {
     margin: 20px;
@@ -107,8 +109,10 @@
 }
 
 .home .div1 {
+  
     width: 100%;
     height: 650px;
+    margin-top: 90px;
     display: flex;
     background-color: rgba(128, 128, 128, 0.174);
 
@@ -396,7 +400,7 @@ h6 {
 }
 
 .home .div5 {
-    margin-top: 20px;
+    margin: 20px 0;
     width: 100%;
     height: 190px;
     display: flex;
@@ -407,6 +411,17 @@ h6 {
     right: 10px;
     font-size: 90px;
     margin-left: 200px;
+    animation-name: ani2;
+    animation-duration: 4s;
+    animation-iteration-count:infinite;
+}
+@keyframes ani2{
+    0%{
+        transform: scale(0,0) ;
+    }
+    25%{
+        transform: scale(1.3,1,3) ;
+    }
 }
 
 .home .div5 .par {
@@ -421,6 +436,145 @@ h6 {
 .home .div5 .button2 {
     position: relative;
     bottom: 50px;
+}
+.home .color2{
+    background-color: rgba(128, 128, 128, 0.174);
+}
+.home .color2 .prevention{
+    margin-bottom: 50px;
+    background-color:transparent;
+}
+.home .color2 .div6{
+    width: 100%;
+    height: 510px;
+    text-align: center;
+    
+    
+}
+.home .color2 .div6 .d3large{
+    display: flex;
+    margin:0 110px;  
+}
+.home .color2 .div6 .d3large .d3{
+    width: 300px;
+    height: 300px;
+     margin-left: 20px;
+   
+}
+.home .color2 .div6 .d3large .d3 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    
+}
+.home .color2 .div6 .d3large .d3 #h8{
+    font-weight: bold;
+    font-size: 23px;
+    margin:10px 0 ;
+}
+.home .color2 .div6 .d3large  .d3 p{
+    font-size: 18px;
+}
+.home .color2 .div6 .button3 button{
+    position: relative;
+    bottom: 70px;
+}
+.home .color2 .div6 .button3 button i{
+    position: relative;
+    left:15px;
+}
+.home .color2 .div6 .button3 p{
+    color: blue;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+}
+.home .color2 .div6 .button3 p:hover{
+    color: darkblue;
+}
+.home .color2 .div7{
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 0 5px gray;
+    margin:auto;
+    width: 90%;
+    height: 700px;
+    overflow: hidden;
+    display: flex;
+}
+.home .color2 .div7 .steps{
+    width: 50%;
+    
+}
+.home .color2 .div7 .steps #h9{
+    font-size: 37px;
+    font-weight: bold;
+    margin:40px 0px 30px 50px ;
+    color: darkgreen;
+}
+.home .color2 .div7 .steps p {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.home .color2 .div7 .steps p i{
+    color: rgba(66, 241, 66, 0.781);
+    margin-right: 10px;
+}
+.home .color2 .div7 img{
+    width: 400px;
+    height: 550px;
+    margin-top: 80px;
+    margin-left: 200px;
+}
+.home .color2 .space{
+    width: 100%;
+    height: 130px;
+}
+.home .color2 .div8{
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+.home .color2 .div8 #h10{
+font-weight: bold;
+font-size: 35px;
+color: darkgreen;
+margin-bottom: 15px;
+}
+.home .color2 .div8 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+.home .color2 .div8 a:hover{
+    color: darkblue;
+}
+.home .color2 .div8 .wash{
+    width: 100%;
+    height: 200px;
+    margin-top: 40px;
+}
+.home .color2 .div8 .wash .wlarge{
+    display: flex;
+   margin-left: 150px;
+
+}
+.home .color2 .div8 .wash .wlarge .w1{
+    width: 200px;
+    height: 200px;
+
+}
+.home .color2 .div8 .wash .wlarge .w1 img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+}
+.home .color2 .div8 .wash .wlarge .w1 p{
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .home .footer {
@@ -511,6 +665,7 @@ h6 {
     .home .div1 {
         width: 100%;
         height: 1000px;
+        margin-top: 65px;
         margin-bottom: 0;
         display: block;
         background-color: rgba(128, 128, 128, 0.174);
@@ -609,7 +764,7 @@ h6 {
 
     .home .title #top {
         color: blue;
-        font-size: 30px;
+        font-size: 20px;
         font-weight: bold;
         margin-bottom: 10px;
 
@@ -617,14 +772,14 @@ h6 {
 
     .home .title h7 {
         color: darkgreen;
-        font-size: 45px;
+        font-size: 25px;
         font-weight: bold;
 
     }
 
     .home .title #bottom {
         margin-top: 20px;
-        font-size: 15px;
+        font-size: 18px;
     }
 
     .home .div2 {
@@ -786,6 +941,7 @@ h6 {
 
     .home .div5 {
         margin-top: 10px;
+        margin-bottom: 200px;
         width: 350px;
         height: 190px;
         display: block;
@@ -811,9 +967,146 @@ h6 {
         position: relative;
         bottom: 50px;
     }
+    .home .color2 .div6{
+        margin-top: 100px ;
+        margin-bottom: 850px;
+        width: 100%;
+        height: 510px;
+        text-align: center;
+        
+        
+        
+    }
+    .home .color2 .div6 .d3large{
+        display: block;
+        margin:0 30px;  
+    }
+    .home .color2 .div6 .d3large .d3{
+        width: 300px;
+        height: 300px;
+         margin-left: 0px;
+       
+    }
+    .home .color2 .div6 .d3large .d3 img{
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+        
+    }
+    .home .color2 .div6 .d3large .d3 #h8{
+        font-weight: bold;
+        font-size: 23px;
+        margin:10px 0 ;
+    }
+    .home .color2 .div6 .d3large  .d3 p{
+        font-size: 18px;
+    }
+    .home .color2 .div6 .button3 button{
+        position: relative;
+        bottom: 70px;
+    }
+    .home .color2 .div6 .button3 button i{
+        position: relative;
+        left:15px;
+    }
+    .home .color2 .div6 .button3 p{
+        color: blue;
+        font-size: 20px;
+        position: relative;
+        bottom: 30px;
+        font-weight: bold;
+    }
+    .home .color2 .div6 .button3 p:hover{
+        color: darkblue;
+    }
+    .home .color2 .div7{
+        background-color: white;
+        border-radius: 40px;
+        box-shadow: 0 0 5px gray;
+        margin:auto;
+        width: 90%;
+        height: 1300px;
+        overflow: hidden;
+        display: block;
+        
+    }
+    .home .color2 .div7 .steps{
+        width: 300px;
+        
+        
+    }
+    .home .color2 .div7 .steps #h9{
+        font-size: 23px;
+        font-weight: bold;
+        margin:40px 0px 30px 20px ;
+        color: darkgreen;
+    }
+    .home .color2 .div7 .steps p {
+        font-size: 17px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .home .color2 .div7 .steps p i{
+        color: rgba(66, 241, 66, 0.781);
+        margin-right: 10px;
+    }
+    .home .color2 .div7 img{
+        width: 300px;
+        height: 300px;
+        margin-top: 80px;
+        margin-left: 5px;
+    }
+    .home .color2 .space{
+        width: 100%;
+        height: 130px;
+    }
+    .home .color2 .div8{
+        text-align: center;
+        width: 100%;
+        height: 1400px;
+    }
+    .home .color2 .div8 #h10{
+    font-weight: bold;
+    font-size: 35px;
+    color: darkgreen;
+    margin-bottom: 15px;
+    }
+    .home .color2 .div8 a{
+        font-size: 20px;
+        text-decoration: none;
+        color: blue;
+        font-weight: bold;
+    }
+    .home .color2 .div8 a:hover{
+        color: darkblue;
+    }
+    .home .color2 .div8 .wash{
+        width: 100%;
+        height: 200px;
+        margin-top: 40px;
+    }
+    .home .color2 .div8 .wash .wlarge{
+        display: block;
+       margin-left: 100px;
+    
+    }
+    .home .color2 .div8 .wash .wlarge .w1{
+        width: 200px;
+        height: 200px;
+    
+    }
+    .home .color2 .div8 .wash .wlarge .w1 img{
+        border-radius: 100%;
+        width: 150px;
+        height: 150px;
+    }
+    .home .color2 .div8 .wash .wlarge .w1 p{
+        font-weight: bold;
+        font-size: 18px;
+    }
 
     .home .footer {
-        margin-top: 200px;
+        margin-top: 0px;
 
         width: 100%;
         height: 1200px;
@@ -825,7 +1118,7 @@ h6 {
     .home .footer .f1 {
         width: 500px;
         height: 280px;
-        margin: 40px;
+        margin: 0px 40px 40px 40px;
 
     }
 
@@ -835,7 +1128,7 @@ h6 {
 
     .home .footer #f1 #icon {
         font-size: 30px;
-        margin-top: 10px;
+        margin-top: 0px;
         margin-right: 20px;
         color: rgba(255, 255, 255, 0.5);
     }
