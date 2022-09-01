@@ -576,6 +576,163 @@ margin-bottom: 15px;
     font-weight: bold;
     font-size: 18px;
 }
+.home .color2 .div9{
+    width: 100%;
+    height: 670px;
+    background-color: rgb(47, 42, 188);
+    overflow: hidden;
+    display: flex;
+}
+.home .color2 .div9 .treat{
+width: 50%;
+height:300px ;
+margin: 80px 5px 0 80px;
+}
+.home .color2 .div9 .treat #h11{
+    color: aqua;
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.home .color2 .div9 .treat #h12{
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.home .color2 .div9 .treat p{
+    color: #fff;
+    font-size: 20p;
+    margin-bottom: 20px;
+}
+.home .color2 .div9 .self{
+    width: 500px;
+    height: 500px;
+    background-color: darkblue;
+    margin: 80px 0 0 25px ;
+    border-radius: 30px;
+    color: #fff;
+    overflow: hidden;
+    font-size: 18px;
+}
+.home .color2 .div9 .self #h13{
+    margin:50px 50px 10px 50px;
+    font-weight: bold;
+}
+.home .color2 .div9 .self p{
+    margin:0 50px 10px 50px;
+}
+.home .color2 .div9 .self ul{
+    margin-left: 5px;
+    list-style-type: none;
+}
+.home .color2 .div9 .self ul li{
+    margin:0 50px 10px 50px;
+}
+.home .color2 .div9 .self ul li i{
+    margin-right: 15px;
+}
+.home .color2 .protect{
+background-color:transparent;
+margin-top: 50px;
+}
+.home .color2 .div10{
+    width: 100%;
+    height: 600px;
+    
+    display: flex;
+    margin-top: 20px;
+}
+.home .color2 .div10 .do{
+    width: 330px;
+    height: 400px;
+    
+    margin-left: 150px;
+    direction: rtl;
+    
+}
+.home .color2 .div10 .do img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 200px;
+    border: solid blue 2px;
+}
+.home .color2 .div10 .do p{
+   position: relative;
+   top:60px;
+   right: 20px;
+   text-align: center;
+}
+.home .color2 .div10 .do p i{
+    color: chartreuse;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+}
+.home .color2 .div10 img{
+    width: 600px;
+    height: 500px;
+}
+.home .color2 .div10 .not{
+    width: 330px;
+    height: 400px;
+        
+}
+
+.home .color2 .div10 .not img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 1px;
+    border: solid blue 2px;
+}
+.home .color2 .div10 .not p{
+   position: relative;
+   top:60px;
+   left:20px;
+   text-align: center;
+}
+.home .color2 .div10 .not p i{
+    position: relative;
+    bottom: 30px;
+    right: 10px;
+    color: red;
+}
+.home .color2 .latest{
+    background-color:transparent;
+}
+.home .div11{
+    width: 100%;
+    height: 500px;
+ 
+    display: flex;
+    
+    
+}
+.home .div11 .l1{
+    width: 400px;
+    height: 400px;
+  background-color: #fff;
+    text-align: center;
+    margin:0 50px;
+}
+.home .div11 .l1 img{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 20px 0;
+
+
+}
+.home .div11 .l1 #h14{
+    font-weight: bold;
+    font-size: 18px;
+    color: darkgreen;
+    margin-bottom: 10px;
+}
 
 .home .footer {
     width: 100%;
@@ -1104,7 +1261,157 @@ margin-bottom: 15px;
         font-weight: bold;
         font-size: 18px;
     }
-
+    .home .color2 .div9{
+        width: 353px;
+        height: 1100px;
+        background-color: rgb(47, 42, 188);
+        overflow: hidden;
+        display: block;
+    }
+    .home .color2 .div9 .treat{
+    width: 300px;
+    height:300px ;
+    margin: 80px 5px 150px 30px;
+    }
+    .home .color2 .div9 .treat #h11{
+        color: aqua;
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .home .color2 .div9 .treat #h12{
+        color: #fff;
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .home .color2 .div9 .treat p{
+        color: #fff;
+        font-size: 20p;
+        margin-bottom: 20px;
+    }
+    .home .color2 .div9 .self{
+        width: 300px;
+        height: 500px;
+        
+        background-color: darkblue;
+        margin: 0px 0 0 25px ;
+        border-radius: 30px;
+        color: #fff;
+        overflow: hidden;
+        font-size: 18px;
+    }
+    .home .color2 .div9 .self #h13{
+        margin:50px 50px 10px 50px;
+        font-weight: bold;
+    }
+    .home .color2 .div9 .self p{
+        margin:0 0px 10px 30px;
+    }
+    .home .color2 .div9 .self ul{
+        margin-left: 0px;
+        list-style-type: none;
+    }
+    .home .color2 .div9 .self ul li{
+        margin:0 50px 10px 50px;
+    }
+    .home .color2 .div9 .self ul li i{
+        margin-right: 15px;
+    }
+    .home .color2 .div10{
+        width: 100%;
+        height: 1000px;
+        
+        display: block;
+        margin-top: 20px;
+    }
+    .home .color2 .div10 .do{
+        width: 330px;
+        height: 400px;
+        margin-top: 80px;
+        margin-left: 3px;
+        direction: rtl;
+        
+    }
+    .home .color2 .div10 .do img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: 200px;
+        border: solid blue 2px;
+    }
+    .home .color2 .div10 .do p{
+       position: relative;
+       top:60px;
+       right: 20px;
+       text-align: center;
+    }
+    .home .color2 .div10 .do p i{
+        color: chartreuse;
+        position: relative;
+        left: 20px;
+        bottom: 40px;
+    }
+    .home .color2 .div10 img{
+        width: 200px;
+        height: 200px;
+        margin-left:100px ;
+    }
+    .home .color2 .div10 .not{
+        width: 330px;
+        height: 400px;
+            
+    }
+    
+    .home .color2 .div10 .not img{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: white;
+        margin-left: 225px;
+        border: solid blue 2px;
+    }
+    .home .color2 .div10 .not p{
+       position: relative;
+       top:60px;
+       margin-right: 90px;
+       text-align: center;
+    }
+    .home .color2 .div10 .not p i{
+        position: relative;
+        left: 150px;
+        bottom: 40px;
+        color: red;
+    }
+    .home .div11{
+        width: 350px;
+        height: 1300px;
+        display: block;
+        
+        
+    }
+    .home .div11 .l1{
+        width: 300px;
+        height: 400px;
+      background-color: #fff;
+        text-align: center;
+        margin:15px 30px;
+    }
+    .home .div11 .l1 img{
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        margin: 20px 0;
+    
+    
+    }
+    .home .div11 .l1 #h14{
+        font-weight: bold;
+        font-size: 18px;
+        color: darkgreen;
+        margin-bottom: 10px;
+    }
     .home .footer {
         margin-top: 0px;
 
@@ -1114,6 +1421,7 @@ margin-bottom: 15px;
         display: block;
         border-bottom: 1px solid red;
     }
+    
 
     .home .footer .f1 {
         width: 500px;
